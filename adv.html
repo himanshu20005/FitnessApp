@@ -1,0 +1,82 @@
+<html>
+    <head>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/styles.css">
+    <style>
+        
+        h1{
+            font-size:6em;
+            margin-top:2%;
+            color: antiquewhite;
+            
+        }
+        span{
+            font-size: 4em;
+            margin-top: 11%;
+            
+            color: darkgray;
+        }
+        button,#id1{
+            
+            border-radius: 10px;
+            margin-top: 50px;
+            height: 110%;
+            width: 85%;
+            color: white;
+            font-family: fantasy;
+            font-size: 5em;
+            background-repeat: round;
+            cursor: pointer;
+            
+        }
+/*
+        .container{
+            height: 40%;
+            width: 100%;
+            display:flex;
+            flex-wrap: nowrap;
+            flex-direction: row; 
+        
+        }
+*/
+         
+    </style>
+        <script>
+        function fun1()
+            {
+                window.open("absa.html","_self");
+            }
+            function fun2()
+            {
+                window.open("chesta.html","_self");
+            }
+            function fun3()
+            {
+                window.open("legsa.html","_self");
+            }
+        </script>
+        </head>
+    <body style="background-image:url(back.jpeg);">
+            <center id="centerEl">  <h1><u>EXERCISES</u></h1></center> <br>  
+<!--
+            <span style="margin-left: 140px;">ABS</span>
+            <span  style="margin-left: 380px;">CHEST</span>
+            <span style="margin-left: 300px">LEGS</span>
+-->
+            
+        <br>
+   <div class="row">
+            <div class="col-md-4 col-xs-12">
+                <center><button onclick="fun1()" style="background-image: url(img/abs11.jpg)">ABS</button></center>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                 <center><button onclick="fun2()" style="margin-top: 50px;background-image: url(img/chest11.jpg)">CHEST</button></center>
+            </div> 
+            <div class="col-md-4 col-xs-12">
+                 <center><button onclick="fun3()" style="background-image: url(img/leg11.jpg)">LEGS</button></center>
+            </div>
+        
+    </div>
+      
+    </body>
+</html>

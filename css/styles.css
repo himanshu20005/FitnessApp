@@ -1,0 +1,105 @@
+@media only screen and (max-width: 768px) and (min-width: 300px) {
+}
+
+@media only screen and (max-width: 600px) {
+  /*
+  body {
+      border: 5px solid red;
+  }
+*/
+  div.box2 h1 {
+    font-size: 28px !important;
+  }
+  div.box2 center {
+    padding-top: 2%;
+  }
+  .c2 {
+    padding-left: 7%;
+    padding-right: 5%;
+    margin-left: 0 !important;
+  }
+  .c3,
+  .c4 {
+    padding-left: 7%;
+    padding-right: 5%;
+    margin-left: 0 !important;
+  }
+
+  div.c3 button {
+    font-size: 45px;
+    text-align: center;
+  }
+  div.c2 button {
+    font-size: 45px;
+    text-align: center;
+  }
+  div.c4 button {
+    font-size: 45px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  div.c2 button {
+    background-image: url(../img/6l.jpg) !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  div.c3 button {
+    background-image: url(../img/4s.jpg) !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  div.c4 button {
+    background-image: url(../img/7l.jpg) !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  center#centerEl h1 {
+    font-size: 3em !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  div.col-xs-12 center button {
+    height: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  div#demo1 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  div#demo2.t2 {
+    margin-top: 80%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  div#demo2.t2 {
+    margin-top: 30%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #idd {
+    background-image: url(../img/xyz12.png) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  center img#imgId {
+    width: 80%;
+    height: 55%;
+  }
+  center#runInPlace h2 {
+    font-size: 46px !important;
+  }
+  .container {
+    top: 85% !important;
+  }
+}
