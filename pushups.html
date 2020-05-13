@@ -1,80 +1,82 @@
 <html>
-<head>
-<title>Push-up</title>  
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./demo.css">
-</head>
-<style>
-    
-    #id1{
-        width:250px;
-        height: 60px;
-        color: white;
-        font-size: 30px;
-        background-image: linear-gradient(cyan,black 30%);
-        padding-top: 13px;
-        
+  <head>
+    <title>Push-up</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./demo.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./navstyles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Allerta+Stencil"
+    />
+  </head>
+
+  <script>
+    function fun2() {
+      window.open("https://youtu.be/rjc0O7OXS3g", "_self");
     }
-    p{
-        font-size: 18px;
-        text-align:justify;
-        margin-left: 10%;
-        margin-right: 10%;
+    function f() {
+      window.open("pushups1.html", "_self");
     }
-    .t1{
-        position: fixed;
-    }
-    
-</style>
-<script>
-    function fun1()
-    {
-        window.open("page2.html", "_self");
-    }
-    function fun2()
-    {
-        window.open("https://youtu.be/rjc0O7OXS3g", "_self");
-    }
-    function f()
-    {
-        window.open("pushups1.html", "_self");
-    }
-</script>
-    
-<body>
-<!--    <div style="width: 100%;height: 100%">-->
-        <div class="gif-style">
-             <img style="height: 515px;margin-bottom: 0; width: 100%" class="img-responsive body-style" src="gif/pushup1.gif">
-        </div>
-         <div style="width: 100%;height: 100%" class="content-style">
-        <form style="color:black">
-<div class="t1">            
-    <img style="width: 60px;height: 60px" src="img/back_buttons_redo-512.png" onclick="fun1()">
-</div>
-        
-<center> 
-    <h1 style="font-size: 40px;margin-top:0px"><u>Push-up</u></h1>
-    <br>
-    <img style="width:60px;height: 60px;" src="img/72-512.png" onclick="fun2()">
-         <br>
-         <br>
-       
-    <div class="t3">
-        
-        <span style="font-size: 32px" ><u>STEPS: </u></span>
-        <p>
-        <b>1.</b> Get down on all fours, placing your hands slightly wider than your shoulders and Straighten your arms and legs.
-        </p><p>
-        <b>2.</b> Lower your body until your chest nearly touches the floor.  
-        </p><p>
-        <b>3.</b> Pause, then push yourself back up and Repeat.
-        </p>
-        <input type="button" onclick="f()" id="id1" value="Start">
-    
+  </script>
+
+  <body>
+    <!--    <div style="width: 100%;height: 100%">-->
+    <div class="gif-style">
+      <img
+        style="height: 720px; margin-bottom: 0; width: 100%;"
+        class="img-responsive body-style"
+        src="gif/pushup1.gif"
+      />
     </div>
- </center>   
-</form>
-    </div> 
-<!--    </div>   -->
-</body>
+    <div style="width: 100%; height: 100%;" class="content-style">
+      <form style="color: black;">
+        <div class="navbar">
+          <h1>BeFIT@Home</h1>
+          <a href="contact.html">Contact</a>
+          <a href="dietpage.html">Diet</a>
+          <a href="about.html">About</a>
+          <a class="active" href="page2(1).html">Home</a>
+        </div>
+
+        <center>
+          <div class="exer-head">
+            <h1 style="font-size: 40px; margin-top: 0px;">Push-up</h1>
+          </div>
+          <br />
+          <img
+            style="width: 60px; height: 60px;"
+            src="img/72-512.png"
+            onclick="fun2()"
+          />
+          <br />
+          <br />
+
+          <div class="t3">
+            <span
+              style="font-size: 32px; font-family: Allerta Stencil, Sans-serif;"
+              ><u>STEPS: </u></span
+            >
+            <p>
+              <br />
+              <b>1.</b> Get down on all fours, placing your hands slightly wider
+              than your shoulders and Straighten your arms and legs.
+            </p>
+            <p>
+              <b>2.</b> Lower your body until your chest nearly touches the
+              floor.
+            </p>
+            <p><b>3.</b> Pause, then push yourself back up and Repeat.</p>
+            <br />
+            <input type="button" onclick="f()" id="id1-btn" value="Start" />
+          </div>
+        </center>
+      </form>
+    </div>
+    <!--    </div>   -->
+  </body>
 </html>

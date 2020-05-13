@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <title>menu page</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./navstyles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Allerta+Stencil"
+    />
+
+    <script>
+      function fun1() {
+        window.open("chestb.html", "_self");
+      }
+      function fun2() {
+        window.open("chesti.html", "_self");
+      }
+      function fun3() {
+        window.open("chesta.html", "_self");
+      }
+    </script>
+  </head>
+  <body>
+    <div class="navbar">
+      <h1>BeFIT@Home</h1>
+      <a href="contact.html">Contact</a>
+      <a href="dietpage.html">Diet</a>
+      <a href="about.html">About</a>
+      <a class="active" href="page2(1).html">Home</a>
+    </div>
+
+    <div class="box2" style="margin: 1 0 1 0;">
+      <h1>
+        <center>CHOOSE YOUR COMFORTABLE LEVEL</center>
+      </h1>
+    </div>
+    <br />
+    <center>
+      <div class="c2">
+        <button
+          onclick="fun1()"
+          style="background-image: url(img/17l.jpg); width: 85%;"
+        >
+          <span id="span-button" style="margin-right: 30px;">Beginner</span>
+        </button>
+      </div>
+      <br />
+
+      <div class="c3">
+        <button
+          onclick="fun2()"
+          style="background-image: url(img/14l.jpg); width: 85%;"
+        >
+          <span id="span-button" style="margin-right: 30px;">Intermediate</span>
+        </button>
+      </div>
+      <br />
+
+      <div class="c4">
+        <button
+          onclick="fun3()"
+          style="background-image: url(img/20l.jpg); width: 85%;"
+        >
+          <span id="span-button" style="margin-right: 30px;">Advanced</span>
+        </button>
+      </div>
+      <br />
+    </center>
+  </body>
+</html>

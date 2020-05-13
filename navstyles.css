@@ -1,0 +1,39 @@
+.navbar {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  overflow: auto;
+}
+
+.navbar a {
+  float: right;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 13px 50px 13px 50px;
+}
+.navbar h1 {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 0 0 50px;
+  font-family: serif;
+}
+
+.navbar a:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 13px 50px 13px 50px;
+}
+
+.active {
+  background-color: rgba(4, 97, 159, 0.7);
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}

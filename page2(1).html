@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./navstyles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Allerta+Stencil"
+    />
+
+    <script>
+      function fun1() {
+        window.open("level.html", "_self");
+      }
+      function fun2() {
+        window.open("levelc.html", "_self");
+      }
+      function fun3() {
+        window.open("levelleg.html", "_self");
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <h1>BeFIT@Home</h1>
+      <a href="contact.html">Contact</a>
+      <a href="dietpage.html">Diet</a>
+      <a href="about.html">About</a>
+      <a class="active" href="page2(1).html">Home</a>
+    </div>
+    <br />
+    <div class="box2" style="margin: 1 0 1 0;">
+      <h1>
+        <center>WORKOUTS</center>
+      </h1>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-xs-12">
+        <button onclick="fun1()" style="background-image: url(img/abs11.jpg);">
+          ABS
+        </button>
+      </div>
+      <div class="col-md-4 col-xs-12">
+        <button
+          class="innerbox"
+          onclick="fun2()"
+          style="margin-top: 50px; background-image: url(img/2a.jpg);"
+        >
+          CHEST
+        </button>
+      </div>
+      <div class="col-md-4 col-xs-12">
+        <button onclick="fun3()" style="background-image: url(img/1a.jpeg);">
+          LEGS
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -115,10 +115,10 @@
     </style>
   </head>
 
-  <body style="background-color: black">
+  <body style="background-color: black;">
     <div class="preload" id="preload">
       <div class="logo">
-        <span>Fit2Flaunt</span>
+        <span>BeFIT@Home</span>
       </div>
       <div class="loader-frame">
         <div class="loader1" id="loader1"></div>
@@ -126,14 +126,14 @@
       </div>
       <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
       <center>
-        <span style="color: ghostwhite;font-size:1.4em;font-family:cursive"
+        <span style="color: ghostwhite; font-size: 1.4em; font-family: cursive;"
           >"Sleep | Train | Eat | Repeat"</span
         >
       </center>
     </div>
 
     <script type="text/javascript">
-      (function() {
+      (function () {
         var preload = document.getElementById("preload");
         var loading = 0;
         var id = setInterval(frame, 64);
@@ -141,7 +141,7 @@
         function frame() {
           if (loading == 100) {
             clearInterval(id);
-            window.open("page2.html", "_self");
+            window.open("page2(1).html", "_self");
           } else {
             loading = loading + 1;
             if (loading == 90) {

@@ -1,0 +1,105 @@
+button {
+  width: 85%;
+  height: 25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 50px;
+  font-style: oblique;
+  border-radius: 8px;
+  transition: all 0.5s;
+}
+button {
+  text-align: left;
+}
+button:hover {
+  transform: scale(1.03);
+}
+
+@media only screen and (min-width: 600px) {
+  #span-button {
+    display: inline-block;
+    margin-bottom: -90px;
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  button {
+    align-content: center;
+  }
+}
+form {
+  align-self: center;
+}
+
+body {
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+}
+.box2 h1 {
+  color: white;
+  font-family: Allerta Stencil, Sans-serif;
+}
+.col-md-4 button {
+  border-radius: 10px;
+  margin-top: 50px;
+  height: 50%;
+  width: 85%;
+  color: white;
+  font-family: fantasy;
+  font-size: 5em;
+  background-repeat: round;
+  cursor: pointer;
+  transition: all 0.5s;
+  align-items: center;
+}
+.col-md-4 button:hover {
+  transform: scale(1.03);
+}
+
+.row {
+  margin-left: 50px;
+}
+.container {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.top {
+  flex-direction: row;
+  height: 200%;
+  width: 100%;
+}
+
+.t3 {
+  height: 10%;
+  width: 100%;
+}
+.t2 {
+  margin-top: 370px;
+}
+.exer-head h1 {
+  color: black;
+  font-family: Allerta Stencil, Sans-serif;
+}
+#id1-btn {
+  width: 250px;
+  height: 60px;
+  color: white;
+  font-size: 25px;
+
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(0, 52, 89, 1) 0%,
+    rgba(0, 168, 232, 1) 90%
+  );
+}
+.t3 p {
+  font-size: 18px;
+  text-align: justify;
+  margin-left: 15%;
+  margin-right: 15%;
+}

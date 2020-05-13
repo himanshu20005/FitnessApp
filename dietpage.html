@@ -1,40 +1,56 @@
 <html>
-<head>
+  <head>
     <title>Diet Page</title>
-    <style>
-        #id1{
-             width: 90%;
-            height: 15%;
-            font-size: 25px;
-            margin-top: 7%;
-            color:white;
-            
-            background-image: linear-gradient(white, springgreen 10%,black 30%);
-            background-repeat: no-repeat;
-                  border: 3px solid white;
-        }
-        #id2{
-             width: 90%;
-            height: 15%;
-            font-size: 25px;
-            margin-top: 5%;
-            color:white;
-            
-            border: 3px solid white;
-            background-image: linear-gradient(white, darkred 10%,black 30%);
-            background-repeat: no-repeat;
-        }
-    
-    
-    </style>
-    </head>
-    <body background="img/food3.jpg">
-        <center>
-            <h1 style="color:white; font-size: 6em">DIET PLAN</h1>
-            <a href="veg.html"> <button id="id1">VEG DIET</button></a><br>
-        <a href="nonveg.html"><button id="id2">NON-VEG DIET</button></a>
-    
-    </center>
-    </body>
+    <link rel="stylesheet" href="./navstyles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Allerta+Stencil"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./demo.css" />
 
+  </head>
+    <style>
+      #id1 {
+        width: 70%;
+        height: 15%;
+        font-size: 25px;
+margin-top: 30px;
+        color: white;
+
+        background-image: linear-gradient(white, springgreen 10%, black 30%);
+        background-repeat: no-repeat;
+        border: 3px solid white;
+      }
+      #id2 {
+        width: 70%;
+        height: 15%;
+        font-size: 25px;
+margin-top: 40px;
+
+        color: white;
+
+        border: 3px solid white;
+        background-image: linear-gradient(white, darkred 10%, black 30%);
+        background-repeat: no-repeat;
+      }
+    </style>
+  </head>
+  <body style="background-image: url(img/food3.jpg);" >
+    <div class="navbar">
+      <h1>BeFIT@Home</h1>
+      <a href="contact.html">Contact</a>
+      <a class="active" href="dietpage.html">Diet</a>
+      <a href="about.html">About</a>
+      <a href="page2(1).html">Home</a>
+    </div>
+    <center>
+      <h1 style="color: white; font-size: 40px;font-family: Allerta Stencil, Sans-serif;">DIET PLAN</h1>
+      <a href="veg.html"> <button id="id1">VEG DIET</button></a><br />
+      <a href="nonveg.html"><button id="id2">NON-VEG DIET</button></a>
+    </center>
+  </body>
 </html>

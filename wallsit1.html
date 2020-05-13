@@ -1,69 +1,89 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="./css/styles.css">
-        <style type="text/css">
-            @font-face{
-                font-family:sevenSegment;
-                src:url(Seven.ttf);
-                
-            }
-            h1{
-                font-family: sevenSegment;
-                font-size: 9em;
-                color: white;
-                margin-bottom: 0px;
-                margin-top: 0px;
-            }
-            .container{
-                position: absolute;
-                top: 90%;
-                left: 50%;
-                transform: translate(-50%,-50%);
-            }
-            button{
-               
-                margin-top: 580px;
-                height: 60px;
-                width: 130px;
-                border-radius: 10px;
-                font-size: 3em;
-            }
-            h2{
-                font-size: 75px;
-                color: white;
-            }
-        </style>
-    </head>
-    <body id="idd" style="background-image:url(img/abcde.png); background-repeat: no-repeat;background-size: cover">
-     
-        <center id="runInPlace">
-        <h2><u>Wall-sit</u></h2>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./demo.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./navstyles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Allerta+Stencil"
+    />
+    <style type="text/css">
+      @font-face {
+        font-family: sevenSegment;
+        src: url(Seven.ttf);
+      }
+      h1 {
+        font-family: sevenSegment;
+        font-size: 9em;
+        color: white;
+        margin-bottom: 0px;
+        margin-top: 0px;
+      }
+      .container {
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      button {
+        margin-top: 580px;
+        height: 60px;
+        width: 130px;
+        border-radius: 10px;
+        font-size: 3em;
+      }
+      h2 {
+        font-size: 75px;
+        color: white;
+      }
+    </style>
+  </head>
+  <body
+    id="idd"
+    style="
+      background-image: url(img/abcde.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    "
+  >
+    <div class="navbar">
+      <h1>BeFIT@Home</h1>
+      <a href="contact.html">Contact</a>
+      <a href="dietpage.html">Diet</a>
+      <a href="about.html">About</a>
+      <a class="active" href="page2(1).html">Home</a>
+    </div>
+    <center id="runInPlace">
+      <h2 style="font-size: 45px; font-family: Allerta Stencil, Sans-serif;">
+        WALL-SIT
+      </h2>
 
-            <img width="50%"; height="60%" src="gif/wallsit1.gif" id="imgId">
-             <br>
-            <br>
-         </center>       
-         
-        <div class="container" id="countId">
-            
-            <h1 id="count" >30</h1>
-        </div>
-        <script type="text/javascript">
-            var c=30;
-            
-            setInterval(function(){
-                c--;
-                if(c>=0)
-                    {    
-                        id=document.getElementById("count");
-                        id.innerHTML=c;
-                    }
-                if(c==0){
-                    id.innerHTML="DONE";
-                }
-            },1000); 
-            
-        </script>
-    </body>
+      <img width="50%" ; height="60%" src="gif/wallsit1.gif" id="imgId" />
+      <br />
+      <br />
+
+      <div class="container" id="countId">
+        <h1 id="count">30</h1>
+      </div>
+    </center>
+    <script type="text/javascript">
+      var c = 30;
+
+      setInterval(function () {
+        c--;
+        if (c >= 0) {
+          id = document.getElementById("count");
+          id.innerHTML = c;
+        }
+        if (c == 0) {
+          id.innerHTML = "DONE";
+        }
+      }, 1000);
+    </script>
+  </body>
 </html>
